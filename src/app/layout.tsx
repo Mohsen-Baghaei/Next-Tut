@@ -27,13 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="bg-sky-400 p-4">
-          <p>Header</p>
-        </header>
         {children}
-        <footer className="bg-slate-400 p-4">
-          <p>Footer</p>
-        </footer>
       </body>
     </html>
   );
