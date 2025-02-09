@@ -13,7 +13,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] flex flex-col">
           <li className="mb-2">
             <Link href="/blog">blog</Link>.
           </li>
@@ -24,9 +24,14 @@ export default function Home() {
             <Link href="/articles/breaking-news-123?lang=en">
               Read in English
             </Link>
+          </li>
+          <li>
             <Link href="/articles/breaking-news-123?lang=fr">
               Read in French
             </Link>
+          </li>
+          <li>
+            <Link href="/order-product">OrderProducts</Link>
           </li>
         </ol>
       </main>
