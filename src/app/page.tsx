@@ -33,6 +33,9 @@ export default function Home() {
           <li>
             <Link href="/order-product">OrderProducts</Link>
           </li>
+          <li>
+            <Link href="/dashboard">Dashboard</Link>
+          </li>
         </ol>
       </main>
     </div>
