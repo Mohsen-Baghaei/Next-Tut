@@ -28,4 +28,12 @@ export const routeing: RouteingType[] = [
     href: "/docs",
     name: "Docs/catch-all-segment",
   },
+  {
+    href: "/this-is-empty",
+    name: "General not found page",
+  },
+  {
+    href: "/products/10/1001",
+    name: "Specific not found page",
+  },
 ];
