@@ -1,3 +1,9 @@
+import "./globals.css";
+export const metadata = {
+  title: "Next.js",
+  description: "New Next",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +11,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="flex justify-start items-start p-5 w-full min-h-screen rounded-xl border-2 border-solid border-gray-400 ">
+        {children}
+      </body>
     </html>
   );
 }
