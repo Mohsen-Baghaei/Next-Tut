@@ -41,6 +41,14 @@ export const routeing: RouteingType[] = [
     name: "Specific not found page",
   },
   {
+    href: "/articles/breaking-news-123?lang=en",
+    name: "articles/search Params",
+  },
+  {
+    href: "/article/breaking-news-123?lang=en",
+    name: "article/search Params (client version)",
+  },
+  {
     href: "/login",
     name: "Check auth Folder/Routeing Group",
   },
