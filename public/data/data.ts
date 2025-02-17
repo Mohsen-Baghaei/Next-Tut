@@ -52,4 +52,12 @@ export const routeing: RouteingType[] = [
     href: "/login",
     name: "Check auth Folder/Routeing Group",
   },
+  {
+    href: "/order-product",
+    name: "order-product/useRouter (use client)",
+  },
+  {
+    href: "/order-redirect",
+    name: "order-redirect/redirect",
+  },
 ];
