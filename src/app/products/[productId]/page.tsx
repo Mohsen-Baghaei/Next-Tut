@@ -1,10 +1,20 @@
+import { Metadata } from "next";
 import Link from "next/link";
 
-export default async function Product({
-  params,
-}: {
+type Props = {
   params: Promise<{ productId: string }>;
-}) {
+};
+
+export const generateMetadata = async ({
+  params,
+}: Props): Promise<Metadata> => {
+  const id = (await params).productId;
+  return {
+    title: `product ${id}`,
+  };
+};
+
+export default async function Product({ params }: Props) {
   const productId = (await params).productId;
   return (
     <div className="flex justify-center items-center">
