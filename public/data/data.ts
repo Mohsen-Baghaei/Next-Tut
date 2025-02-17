@@ -29,6 +29,10 @@ export const routeing: RouteingType[] = [
     name: "Docs/catch-all-segment",
   },
   {
+    href: "/_lib",
+    name: "Private Route",
+  },
+  {
     href: "/this-is-empty",
     name: "General not found page",
   },
