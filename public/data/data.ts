@@ -61,6 +61,10 @@ export const routeing: RouteingType[] = [
     name: "order-redirect/redirect",
   },
   {
+    href: "/blog",
+    name: "loading",
+  },
+  {
     href: "/templateUseCase",
     name: "templateUseCase",
   },

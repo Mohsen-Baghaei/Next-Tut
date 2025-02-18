@@ -1,9 +1,17 @@
 import Link from "next/link";
 
-export default function BlogPage() {
+export default async function BlogPage() {
+  await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve("intentional delay");
+    }, 2000);
+  });
+
   return (
     <div>
       <h2>Blog Page</h2>
+      <h2>For loading check loading.tsx in root level</h2>
+      <p>you can create specific loading for eatch route</p>
       <div className="flex justify-start items-start gap-4">
         <Link
           href="/blog/first"

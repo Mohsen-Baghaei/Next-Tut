@@ -4,6 +4,6 @@ export default function TemplateUseCaseTemplate({
   children: React.ReactNode;
 }) {
   return (
-    <div className="w-full flex justify-start items-start">{children}</div>
+    <div className="w-full flex justify-center items-center">{children}</div>
   );
 }
