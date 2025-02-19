@@ -68,4 +68,8 @@ export const routeing: RouteingType[] = [
     href: "/templateUseCase",
     name: "templateUseCase",
   },
+  {
+    href: "/dashboard",
+    name: "dashboard/Parallel Route",
+  },
 ];
