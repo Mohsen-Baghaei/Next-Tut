@@ -3,12 +3,15 @@ export default function DashboardLayout({
   users,
   revenue,
   notification,
+  login,
 }: {
   children: React.ReactNode;
   users: React.ReactNode;
   revenue: React.ReactNode;
   notification: React.ReactNode;
+  login: React.ReactNode;
 }) {
+  const isLoggedin = false;
   return (
     <div className="flex flex-col w-full h-screen justify-start items-start">
       <div className="w-full text-center">{children}</div>
@@ -18,7 +21,7 @@ export default function DashboardLayout({
           <div className="w-full">{revenue}</div>
         </div>
         <div className="flex w-1/2 justify-start items-center flex-1 flex-grow h-full">
-          {notification}
+          {isLoggedin ? <>{notification}</> : <>{login}</>}
         </div>
       </div>
     </div>

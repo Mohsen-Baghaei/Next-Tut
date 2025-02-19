@@ -66,7 +66,7 @@ export const routeing: RouteingType[] = [
   },
   {
     href: "/dashboard",
-    name: "dashboard/Parallel Route (Sub Navigation and default.tsx)",
+    name: "dashboard/Parallel Route (Sub Navigation and default.tsx)/Protactive Route",
   },
   {
     href: "/templateUseCase",
