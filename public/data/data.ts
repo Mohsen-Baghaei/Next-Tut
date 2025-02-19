@@ -69,11 +69,15 @@ export const routeing: RouteingType[] = [
     name: "dashboard/Parallel Route (Sub Navigation and default.tsx)/Protactive Route",
   },
   {
-    href: "/templateUseCase",
-    name: "templateUseCase",
-  },
-  {
     href: "/f1",
     name: "f1/Intercepting Routes",
+  },
+  {
+    href: "/photo-feed",
+    name: "photo-feed/Parallel Interception Route",
+  },
+  {
+    href: "/templateUseCase",
+    name: "templateUseCase",
   },
 ];
