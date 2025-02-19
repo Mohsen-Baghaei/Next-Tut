@@ -65,11 +65,11 @@ export const routeing: RouteingType[] = [
     name: "loading",
   },
   {
-    href: "/templateUseCase",
-    name: "templateUseCase",
+    href: "/dashboard",
+    name: "dashboard/Parallel Route (Sub Navigation and default.tsx)",
   },
   {
-    href: "/dashboard",
-    name: "dashboard/Parallel Route",
+    href: "/templateUseCase",
+    name: "templateUseCase",
   },
 ];
