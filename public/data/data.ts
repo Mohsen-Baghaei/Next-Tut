@@ -72,4 +72,8 @@ export const routeing: RouteingType[] = [
     href: "/templateUseCase",
     name: "templateUseCase",
   },
+  {
+    href: "/f1",
+    name: "f1/Intercepting Routes",
+  },
 ];
