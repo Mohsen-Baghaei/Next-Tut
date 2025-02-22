@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import "./global.css";
+import "./globals.css";
 export const metadata: Metadata = {
   title: {
     default: "Next.js TUT",
