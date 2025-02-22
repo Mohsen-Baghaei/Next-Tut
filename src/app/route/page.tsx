@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { routeing, RouteingType } from "../../public/data/data";
+import { routeing, RouteingType } from "../../data/data";
 
 export default function Home() {
   const content = routeing.map((route: RouteingType, i: number) => (
@@ -13,7 +13,7 @@ export default function Home() {
   ));
 
   return (
-    <div className=" flex justify-start items-start gap-5 text-3xl flex-wrap">
+    <div className="flex justify-start items-start gap-5 text-3xl flex-wrap">
       {content}
     </div>
   );
