@@ -28,4 +28,8 @@ export const routeHandler: RouteHandlerType[] = [
     href: "/profile/api",
     name: "profile/ Headers / Cookies",
   },
+  {
+    href: "/api/users/v1",
+    name: "api/ Redirect",
+  },
 ];
