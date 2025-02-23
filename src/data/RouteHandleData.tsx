@@ -32,4 +32,8 @@ export const routeHandler: RouteHandlerType[] = [
     href: "/api/users/v1",
     name: "api/ Redirect",
   },
+  {
+    href: "/categories",
+    name: "categories/ Cashing",
+  },
 ];
