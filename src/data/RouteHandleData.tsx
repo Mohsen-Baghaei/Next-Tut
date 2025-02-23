@@ -12,4 +12,8 @@ export const routeHandler: RouteHandlerType[] = [
     href: "/dashboard/users",
     name: "dashbard/Nested Route Handle",
   },
+  {
+    href: "/comments",
+    name: "comments/ ( GET / Post )",
+  },
 ];
