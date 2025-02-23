@@ -16,4 +16,8 @@ export const routeHandler: RouteHandlerType[] = [
     href: "/comments",
     name: "comments/ ( GET / Post )",
   },
+  {
+    href: "/comments/2",
+    name: "comments/ ( GET / PATCH / DELETE With Id )",
+  },
 ];
