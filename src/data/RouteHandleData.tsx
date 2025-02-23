@@ -20,4 +20,8 @@ export const routeHandler: RouteHandlerType[] = [
     href: "/comments/2",
     name: "comments/ ( GET / PATCH / DELETE With Id )",
   },
+  {
+    href: "/comments/?query=first",
+    name: "comments/ Search Filter",
+  },
 ];
