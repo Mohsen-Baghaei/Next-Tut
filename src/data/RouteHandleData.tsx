@@ -24,4 +24,8 @@ export const routeHandler: RouteHandlerType[] = [
     href: "/comments/?query=first",
     name: "comments/ Search Filter",
   },
+  {
+    href: "/profile/api",
+    name: "profile/ Headers",
+  },
 ];
