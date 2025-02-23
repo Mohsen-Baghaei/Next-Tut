@@ -26,6 +26,6 @@ export const routeHandler: RouteHandlerType[] = [
   },
   {
     href: "/profile/api",
-    name: "profile/ Headers",
+    name: "profile/ Headers / Cookies",
   },
 ];
