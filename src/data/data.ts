@@ -5,79 +5,79 @@ export type RouteingType = {
 
 export const routeing: RouteingType[] = [
   {
-    href: "/",
+    href: "/route",
     name: "home",
   },
   {
-    href: "/about",
+    href: "/route/about",
     name: "about/Single Route",
   },
   {
-    href: "/profile",
+    href: "/route/profile",
     name: "profile/Single Route",
   },
   {
-    href: "/blog",
+    href: "/route/blog",
     name: "blog/Nested Route",
   },
   {
-    href: "/products",
+    href: "/route/products",
     name: "products/Dynamic Route",
   },
   {
-    href: "/docs",
+    href: "/route/docs",
     name: "docs/Catch All Segment",
   },
   {
-    href: "/_lib",
+    href: "/route/_lib",
     name: "_lib/Private Folder",
   },
   {
-    href: "/this-is-empty",
+    href: "/route/this-is-empty",
     name: "General not found page",
   },
   {
-    href: "/products/10/1001",
+    href: "/route/products/10/1001",
     name: "Specific not found page",
   },
   {
-    href: "/articles/breaking-news-123?lang=en",
+    href: "/route/articles/breaking-news-123?lang=en",
     name: "articles/search Params",
   },
   {
-    href: "/article/breaking-news-123?lang=en",
+    href: "/route/article/breaking-news-123?lang=en",
     name: "article/search Params (client version)",
   },
   {
-    href: "/login",
+    href: "/route/login",
     name: "Check auth Folder/Routeing Group",
   },
   {
-    href: "/order-product",
+    href: "/route/order-product",
     name: "order-product/useRouter (use client)",
   },
   {
-    href: "/order-redirect",
+    href: "/route/order-redirect",
     name: "order-redirect/redirect",
   },
   {
-    href: "/blog",
+    href: "/route/blog",
     name: "loading",
   },
   {
-    href: "/dashboard",
+    href: "/route/dashboard",
     name: "dashboard/Parallel Route (Sub Navigation and default.tsx)/Protactive Route",
   },
   {
-    href: "/f1",
+    href: "/route/f1",
     name: "f1/Intercepting Routes",
   },
   {
-    href: "/photo-feed",
+    href: "/route/photo-feed",
     name: "photo-feed/Parallel Interception Route",
   },
   {
-    href: "/templateUseCase",
+    href: "/route/templateUseCase",
     name: "templateUseCase",
   },
 ];

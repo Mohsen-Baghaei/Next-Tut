@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     default: "Next.js TUT",
     template: "% | TUT",
   },
-  description: "RENDERING",
+  description: "Route Handler",
 };
 
 export default function RootLayout({

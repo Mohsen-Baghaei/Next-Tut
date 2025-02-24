@@ -18,19 +18,19 @@ export default function NewsArticle({
       <p>reading in {lang}</p>
       <div className="flex flex-col justify-center items-center gap-4">
         <Link
-          href={`/article/${articleId}?lang=en`}
+          href={`/route/article/${articleId}?lang=en`}
           className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
         >
           English
         </Link>
         <Link
-          href={`/article/${articleId}?lang=es`}
+          href={`/route/article/${articleId}?lang=es`}
           className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
         >
           Spanish
         </Link>
         <Link
-          href={`/article/${articleId}?lang=fr`}
+          href={`/route/article/${articleId}?lang=fr`}
           className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
         >
           French

@@ -20,7 +20,7 @@ export default async function Product({ params }: Props) {
     <div className="flex justify-center items-center">
       <h2>Product {productId} details</h2>
       <Link
-        href={`/products/${productId}/${10}`}
+        href={`/route/products/${productId}/${10}`}
         className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
       >
         view Reviews

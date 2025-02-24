@@ -4,9 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navLink = [
-  { name: "Register", href: "/register" },
-  { name: "Login", href: "/login" },
-  { name: "Forgot Passwprd", href: "/forgot-password" },
+  { name: "Register", href: "/route/register" },
+  { name: "Login", href: "/route/login" },
+  { name: "Forgot Passwprd", href: "/route/forgot-password" },
 ];
 
 export default function AuthLayout({

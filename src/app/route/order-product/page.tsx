@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 export default function OrderProduct() {
   const router = useRouter();
   const handleClick = () => {
-    router.push("/");
+    router.push("/route");
   };
   return (
     <>

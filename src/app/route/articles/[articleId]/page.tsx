@@ -15,19 +15,19 @@ export default async function NewsArticle({
       <p>reading in {lang}</p>
       <div className="flex flex-col justify-center items-center gap-4">
         <Link
-          href={`/articles/${articleId}?lang=en`}
+          href={`/route/articles/${articleId}?lang=en`}
           className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
         >
           English
         </Link>
         <Link
-          href={`/articles/${articleId}?lang=es`}
+          href={`/route/articles/${articleId}?lang=es`}
           className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
         >
           Spanish
         </Link>
         <Link
-          href={`/articles/${articleId}?lang=fr`}
+          href={`/route/articles/${articleId}?lang=fr`}
           className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
         >
           French

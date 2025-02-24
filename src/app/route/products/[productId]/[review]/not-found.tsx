@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 export default function NotFound() {
   const pataname = usePathname();
 
-  const productId = pataname.split("/")[2];
-  const reviewId = pataname.split("/")[3];
+  const productId = pataname.split("/")[3];
+  const reviewId = pataname.split("/")[4];
 
   return (
     <div>

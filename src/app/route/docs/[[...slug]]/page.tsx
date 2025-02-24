@@ -19,13 +19,13 @@ export default async function Docs({
     <div className="flex flex-col justify-center items-center gap-4">
       <h2>Docs home page</h2>
       <Link
-        href="/docs/routing"
+        href="/route/docs/routing"
         className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
       >
         one params
       </Link>
       <Link
-        href="/docs/routing/catch-all-segment"
+        href="/route/docs/routing/catch-all-segment"
         className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
       >
         two params

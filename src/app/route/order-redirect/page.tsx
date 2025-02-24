@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 
 export default function OrderProduct() {
   const handleClick = () => {
-    redirect("/");
+    redirect("/route");
   };
   return (
     <>

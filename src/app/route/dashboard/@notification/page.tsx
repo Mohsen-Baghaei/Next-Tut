@@ -7,7 +7,7 @@ export default function Notification() {
       <div className="flex flex-col gap-4">
         <h2>Notification</h2>
         <div>
-          <Link href="/dashboard/archived" className="text-blue-600">
+          <Link href="/route/dashboard/archived" className="text-blue-600">
             Archived
           </Link>
         </div>

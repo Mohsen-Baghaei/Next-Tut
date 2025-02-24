@@ -14,13 +14,13 @@ export default async function BlogPage() {
       <p>you can create specific loading for eatch route</p>
       <div className="flex justify-start items-start gap-4">
         <Link
-          href="/blog/first"
+          href="/route/blog/first"
           className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
         >
           First Page
         </Link>
         <Link
-          href="/blog/second"
+          href="/route/blog/second"
           className="p-2 rounded-xl border-2 border-solid border-red-300 bg-gray-400 text-slate-800"
         >
           Second Page
