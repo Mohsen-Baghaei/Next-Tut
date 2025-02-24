@@ -5,7 +5,7 @@ export type RenderingType = {
 
 export const Rebdering: RenderingType[] = [
   {
-    href: "/",
-    name: "",
+    href: "/rendering/clientSideRendering",
+    name: "Client Side Rendering (CSR) 48",
   },
 ];
