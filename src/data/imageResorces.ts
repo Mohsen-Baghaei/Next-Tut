@@ -33,6 +33,18 @@ import Screenshot59 from "../../public/contents/reactServerComponents/Screenshot
 import Screenshot60 from "../../public/contents/reactServerComponents/Screenshot60.png";
 import Screenshot61 from "../../public/contents/reactServerComponents/Screenshot61.png";
 import Screenshot62 from "../../public/contents/reactServerComponents/Screenshot62.png";
+import Screenshot66 from "../../public/contents/staticDynamicRendering/Screenshot66.png";
+import Screenshot67 from "../../public/contents/staticDynamicRendering/Screenshot67.png";
+import Screenshot68 from "../../public/contents/staticDynamicRendering/Screenshot68.png";
+import Screenshot69 from "../../public/contents/staticDynamicRendering/Screenshot69.png";
+import Screenshot70 from "../../public/contents/staticDynamicRendering/Screenshot70.png";
+import Screenshot71 from "../../public/contents/staticDynamicRendering/Screenshot71.png";
+import Screenshot72 from "../../public/contents/staticDynamicRendering/Screenshot72.png";
+import Screenshot73 from "../../public/contents/staticDynamicRendering/Screenshot73.png";
+import Screenshot74 from "../../public/contents/staticDynamicRendering/Screenshot74.png";
+import Screenshot75 from "../../public/contents/staticDynamicRendering/Screenshot75.png";
+import Screenshot76 from "../../public/contents/staticDynamicRendering/Screenshot76.png";
+import Screenshot77 from "../../public/contents/staticDynamicRendering/Screenshot77.png";
 
 export const clientSideRenderingImages = [
   { src: Screenshot28 },
@@ -79,4 +91,18 @@ export const reactServerComponentsImages = [
   { src: Screenshot60 },
   { src: Screenshot61 },
   { src: Screenshot62 },
+];
+export const staticDynamicRenderingImages = [
+  { src: Screenshot66 },
+  { src: Screenshot67 },
+  { src: Screenshot68 },
+  { src: Screenshot69 },
+  { src: Screenshot70 },
+  { src: Screenshot71 },
+  { src: Screenshot72 },
+  { src: Screenshot73 },
+  { src: Screenshot74 },
+  { src: Screenshot75 },
+  { src: Screenshot76 },
+  { src: Screenshot77 },
 ];

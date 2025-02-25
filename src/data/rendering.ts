@@ -20,4 +20,8 @@ export const Rebdering: RenderingType[] = [
     href: "/rendering/reactServerComponents",
     name: "React Server Components (RSC) 51",
   },
+  {
+    href: "/rendering/staticDynamicRendering",
+    name: "(Static / Dynamic ) Rendering",
+  },
 ];
