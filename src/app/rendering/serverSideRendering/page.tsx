@@ -1,7 +1,7 @@
 import { serverSideRenderinImages } from "@/data/imageResorces";
 import Image from "next/image";
 
-export default function clientSideRendering() {
+export default function serverSideRendering() {
   const imageContent = serverSideRenderinImages.map((image, i) => (
     <Image
       key={i}

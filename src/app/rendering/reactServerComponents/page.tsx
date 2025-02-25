@@ -1,8 +1,8 @@
-import { suspenseSSRImages } from "@/data/imageResorces";
+import { reactServerComponentsImages } from "@/data/imageResorces";
 import Image from "next/image";
 
-export default function suspenseSSR() {
-  const imageContent = suspenseSSRImages.map((image, i) => (
+export default function reactServerComponents() {
+  const imageContent = reactServerComponentsImages.map((image, i) => (
     <Image
       key={i}
       src={image.src}
@@ -12,7 +12,7 @@ export default function suspenseSSR() {
   ));
   return (
     <div className="w-full flex flex-col justify-start items-start gap-4 p-5">
-      <h2>Suspense SSR 50</h2>
+      <h2>React Server Components (RSC) 51</h2>
       {imageContent}
     </div>
   );

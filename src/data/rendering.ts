@@ -16,4 +16,8 @@ export const Rebdering: RenderingType[] = [
     href: "/rendering/suspenseSSR",
     name: "Suspense SSR 50",
   },
+  {
+    href: "/rendering/reactServerComponents",
+    name: "React Server Components (RSC) 51",
+  },
 ];

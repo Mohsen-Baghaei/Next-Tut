@@ -20,6 +20,19 @@ import Screenshot46 from "../../public/contents/suspenseSSR/Screenshot46.png";
 import Screenshot47 from "../../public/contents/suspenseSSR/Screenshot47.png";
 import Screenshot48 from "../../public/contents/suspenseSSR/Screenshot48.png";
 import Screenshot49 from "../../public/contents/suspenseSSR/Screenshot49.png";
+import Screenshot50 from "../../public/contents/reactServerComponents/Screenshot50.png";
+import Screenshot51 from "../../public/contents/reactServerComponents/Screenshot51.png";
+import Screenshot52 from "../../public/contents/reactServerComponents/Screenshot52.png";
+import Screenshot53 from "../../public/contents/reactServerComponents/Screenshot53.png";
+import Screenshot54 from "../../public/contents/reactServerComponents/Screenshot54.png";
+import Screenshot55 from "../../public/contents/reactServerComponents/Screenshot55.png";
+import Screenshot56 from "../../public/contents/reactServerComponents/Screenshot56.png";
+import Screenshot57 from "../../public/contents/reactServerComponents/Screenshot57.png";
+import Screenshot58 from "../../public/contents/reactServerComponents/Screenshot58.png";
+import Screenshot59 from "../../public/contents/reactServerComponents/Screenshot59.png";
+import Screenshot60 from "../../public/contents/reactServerComponents/Screenshot60.png";
+import Screenshot61 from "../../public/contents/reactServerComponents/Screenshot61.png";
+import Screenshot62 from "../../public/contents/reactServerComponents/Screenshot62.png";
 
 export const clientSideRenderingImages = [
   { src: Screenshot28 },
@@ -50,4 +63,20 @@ export const suspenseSSRImages = [
   { src: Screenshot47 },
   { src: Screenshot48 },
   { src: Screenshot49 },
+];
+
+export const reactServerComponentsImages = [
+  { src: Screenshot50 },
+  { src: Screenshot51 },
+  { src: Screenshot52 },
+  { src: Screenshot53 },
+  { src: Screenshot54 },
+  { src: Screenshot55 },
+  { src: Screenshot56 },
+  { src: Screenshot57 },
+  { src: Screenshot58 },
+  { src: Screenshot59 },
+  { src: Screenshot60 },
+  { src: Screenshot61 },
+  { src: Screenshot62 },
 ];
