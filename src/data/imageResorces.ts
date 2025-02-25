@@ -50,6 +50,10 @@ import Screenshot79 from "../../public/contents/generateStaticParams/Screenshot7
 import Screenshot80 from "../../public/contents/generateDynamicParams/Screenshot80.png";
 import Screenshot81 from "../../public/contents/generateDynamicParams/Screenshot81.png";
 import Screenshot83 from "../../public/contents/striming/Screenshot83.png";
+import Screenshot84 from "../../public/contents/serverOnly/Screenshot84.png";
+import Screenshot85 from "../../public/contents/serverOnly/Screenshot85.png";
+import Screenshot86 from "../../public/contents/serverOnly/Screenshot86.png";
+import Screenshot87 from "../../public/contents/serverOnly/Screenshot87.png";
 
 export const clientSideRenderingImages = [
   { src: Screenshot28 },
@@ -124,3 +128,10 @@ export const generateDynamicParamsImages = [
 ];
 
 export const strimingImage = [{ src: Screenshot83 }];
+
+export const serverOnlyImage = [
+  { src: Screenshot84 },
+  { src: Screenshot85 },
+  { src: Screenshot86 },
+  { src: Screenshot87 },
+];

@@ -24,7 +24,10 @@ export default function ProductDetailPage() {
       <Suspense fallback={<p>Loading reviews...</p>}>
         <Reviews />
       </Suspense>
-      <h2>striming is suspense in react </h2>
+      <h2>
+        striming is suspense in react (it loads h2 and then others but if we
+        dont include it, it waits will all items load and then show all in once)
+      </h2>
       {imageContent}
     </div>
   );

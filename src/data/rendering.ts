@@ -36,4 +36,8 @@ export const Rebdering: RenderingType[] = [
     href: "/rendering/product-reviews",
     name: "product-reviews/Striming (Suspense)",
   },
+  {
+    href: "/rendering/client-route",
+    name: "client-route/Server Rendering Only",
+  },
 ];
