@@ -32,4 +32,8 @@ export const Rebdering: RenderingType[] = [
     href: "/rendering/product",
     name: "product/Dynamic Params",
   },
+  {
+    href: "/rendering/product-reviews",
+    name: "product-reviews/Striming (Suspense)",
+  },
 ];
