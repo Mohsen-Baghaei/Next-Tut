@@ -24,4 +24,8 @@ export const Rebdering: RenderingType[] = [
     href: "/rendering/staticDynamicRendering",
     name: "(Static / Dynamic ) Rendering",
   },
+  {
+    href: "/rendering/products",
+    name: "products/Generate Static Params",
+  },
 ];

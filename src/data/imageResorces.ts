@@ -45,6 +45,8 @@ import Screenshot74 from "../../public/contents/staticDynamicRendering/Screensho
 import Screenshot75 from "../../public/contents/staticDynamicRendering/Screenshot75.png";
 import Screenshot76 from "../../public/contents/staticDynamicRendering/Screenshot76.png";
 import Screenshot77 from "../../public/contents/staticDynamicRendering/Screenshot77.png";
+import Screenshot78 from "../../public/contents/generateStaticParams/Screenshot78.png";
+import Screenshot79 from "../../public/contents/generateStaticParams/Screenshot79.png";
 
 export const clientSideRenderingImages = [
   { src: Screenshot28 },
@@ -92,6 +94,7 @@ export const reactServerComponentsImages = [
   { src: Screenshot61 },
   { src: Screenshot62 },
 ];
+
 export const staticDynamicRenderingImages = [
   { src: Screenshot66 },
   { src: Screenshot67 },
@@ -105,4 +108,9 @@ export const staticDynamicRenderingImages = [
   { src: Screenshot75 },
   { src: Screenshot76 },
   { src: Screenshot77 },
+];
+
+export const generateStaticParamsImages = [
+  { src: Screenshot78 },
+  { src: Screenshot79 },
 ];
