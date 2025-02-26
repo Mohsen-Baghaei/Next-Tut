@@ -5,7 +5,7 @@ export type DataFetchingType = {
 
 export const DataFetching: DataFetchingType[] = [
   {
-    href: "/dataFetching/",
-    name: "",
+    href: "/dataFetching/users-client",
+    name: "users-client/Fetching Data in Client Components",
   },
 ];
