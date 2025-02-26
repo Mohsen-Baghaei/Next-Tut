@@ -54,6 +54,7 @@ import Screenshot84 from "../../public/contents/serverOnly/Screenshot84.png";
 import Screenshot85 from "../../public/contents/serverOnly/Screenshot85.png";
 import Screenshot86 from "../../public/contents/serverOnly/Screenshot86.png";
 import Screenshot87 from "../../public/contents/serverOnly/Screenshot87.png";
+import Screenshot88 from "../../public/contents/serverOnly/Screenshot88.png";
 
 export const clientSideRenderingImages = [
   { src: Screenshot28 },
@@ -134,4 +135,5 @@ export const serverOnlyImage = [
   { src: Screenshot85 },
   { src: Screenshot86 },
   { src: Screenshot87 },
+  { src: Screenshot88 },
 ];

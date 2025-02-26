@@ -38,7 +38,7 @@ export const Rebdering: RenderingType[] = [
   },
   {
     href: "/rendering/client-route",
-    name: "client-route/Server Rendering Only",
+    name: "client-route/Server Only / Client Only",
   },
   {
     href: "/rendering/server-route",
