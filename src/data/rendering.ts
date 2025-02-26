@@ -48,4 +48,8 @@ export const Rebdering: RenderingType[] = [
     href: "/rendering/context",
     name: "context/context provider  ",
   },
+  {
+    href: "/rendering/interleaving",
+    name: "interleaving/Interleaving Server and Client Components",
+  },
 ];
