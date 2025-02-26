@@ -44,6 +44,8 @@ export const Rebdering: RenderingType[] = [
     href: "/rendering/server-route",
     name: "server-route/Third Party Package for Server",
   },
+  {
+    href: "/rendering/context",
+    name: "context/context provider  ",
+  },
 ];
-
-//npm i react-slick slick-carousel @types/react-slick

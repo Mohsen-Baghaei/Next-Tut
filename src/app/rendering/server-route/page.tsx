@@ -13,6 +13,7 @@ export default function ServerRoutePage() {
         in default we can not use Third Party Package for Server so we have to
         write the code in another part and import it in to server component
       </h2>
+      <h2>npm i react-slick slick-carousel @types/react-slick</h2>
     </div>
   );
 }
