@@ -1,8 +1,8 @@
-import { DataFetching, DataFetchingType } from "@/data/dataFetching";
+import { Rendering, RenderingType } from "@/data/rendering";
 import Link from "next/link";
 
 export default function Home() {
-  const content = DataFetching.map((route: DataFetchingType, i: number) => (
+  const content = Rendering.map((route: RenderingType, i: number) => (
     <Link
       key={i}
       href={route.href}

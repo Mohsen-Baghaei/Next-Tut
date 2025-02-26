@@ -12,6 +12,7 @@ export default function InterLeavingPage() {
         component we get error ***
       </h2>
       <h2>*** so we use children and pass the server component as prop ***</h2>
+      <h2>/ / / / / / / / / / / / / / / / / / / / / / / / /</h2>
       <ClientComponentOne>
         <ServerComponentOne />
       </ClientComponentOne>

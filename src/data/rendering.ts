@@ -3,7 +3,7 @@ export type RenderingType = {
   name: string;
 };
 
-export const Rebdering: RenderingType[] = [
+export const Rendering: RenderingType[] = [
   {
     href: "/rendering/clientSideRendering",
     name: "Client Side Rendering (CSR) 48",
