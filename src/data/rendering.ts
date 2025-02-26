@@ -40,4 +40,10 @@ export const Rebdering: RenderingType[] = [
     href: "/rendering/client-route",
     name: "client-route/Server Rendering Only",
   },
+  {
+    href: "/rendering/server-route",
+    name: "server-route/Third Party Package for Server",
+  },
 ];
+
+//npm i react-slick slick-carousel @types/react-slick
