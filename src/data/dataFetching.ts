@@ -20,4 +20,8 @@ export const DataFetching: DataFetchingType[] = [
     href: "/dataFetching/user-parallel/1",
     name: "user-parallel/Parallel Data Fetching",
   },
+  {
+    href: "/dataFetching/products-db",
+    name: "products-db/Featching Ffrom a Database (Prisma)",
+  },
 ];
