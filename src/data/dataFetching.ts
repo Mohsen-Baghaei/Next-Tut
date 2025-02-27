@@ -12,4 +12,8 @@ export const DataFetching: DataFetchingType[] = [
     href: "/dataFetching/users-server",
     name: "users-server/Loading and Error States",
   },
+  {
+    href: "/dataFetching/posts-sequential",
+    name: "posts-sequential/Sequential Data Fetching",
+  },
 ];
