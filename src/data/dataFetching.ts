@@ -16,4 +16,8 @@ export const DataFetching: DataFetchingType[] = [
     href: "/dataFetching/posts-sequential",
     name: "posts-sequential/Sequential Data Fetching",
   },
+  {
+    href: "/dataFetching/user-parallel/1",
+    name: "user-parallel/Parallel Data Fetching",
+  },
 ];
