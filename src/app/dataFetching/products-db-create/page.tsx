@@ -1,3 +1,4 @@
+import { Submit } from "@/components/submit";
 import { addProduct } from "@/prisma-db";
 import { redirect } from "next/navigation";
 
@@ -8,7 +9,7 @@ export default function AddProductPage() {
     const price = formData.get("price") as string;
     const description = formData.get("description") as string;
     await addProduct(title, parseInt(price), description);
-    redirect("/dataFetching/product-db");
+    redirect("/dataFetching//products-db");
   };
 
   return (
@@ -39,13 +40,7 @@ export default function AddProductPage() {
         id="description"
         className="block w-full p-2 text-black border rounded"
       />
-      <button
-        type="submit"
-        className="block w-full text-white bg-blue-500 rounded disabled:bg-gray-500
-    "
-      >
-        Add Product
-      </button>
+      <Submit />
     </form>
   );
 }
