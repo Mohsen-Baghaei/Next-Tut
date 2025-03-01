@@ -22,7 +22,7 @@ export const DataFetching: DataFetchingType[] = [
   },
   {
     href: "/dataFetching/products-db",
-    name: "products-db/Featching From a Database (Prisma) / Update Server Action",
+    name: "products-db/Featching From a Database (Prisma) /Update Server Action /delete Server Action",
   },
   {
     href: "/dataFetching/products-db-create",
