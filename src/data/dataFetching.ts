@@ -24,4 +24,8 @@ export const DataFetching: DataFetchingType[] = [
     href: "/dataFetching/products-db",
     name: "products-db/Featching Ffrom a Database (Prisma)",
   },
+  {
+    href: "/dataFetching/products-db-create",
+    name: "products-db-create/Forms with Server Actions",
+  },
 ];
