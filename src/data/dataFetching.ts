@@ -22,10 +22,10 @@ export const DataFetching: DataFetchingType[] = [
   },
   {
     href: "/dataFetching/products-db",
-    name: "products-db/Featching Ffrom a Database (Prisma)",
+    name: "products-db/Featching From a Database (Prisma) / Update Server Action",
   },
   {
     href: "/dataFetching/products-db-create",
-    name: "products-db-create/Forms with Server Actions",
+    name: "products-db-create/Forms with Server Actions /Form Validation with useActionState",
   },
 ];
