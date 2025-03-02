@@ -5,35 +5,35 @@ export type RouteHandlerType = {
 
 export const routeHandler: RouteHandlerType[] = [
   {
-    href: "/dashboard",
+    href: "/routeHandler/dashboard",
     name: "dashbard/Route Handle",
   },
   {
-    href: "/dashboard/users",
+    href: "/routeHandler/dashboard/users",
     name: "dashbard/Nested Route Handle",
   },
   {
-    href: "/comments",
+    href: "/routeHandler/comments",
     name: "comments/ ( GET / Post )",
   },
   {
-    href: "/comments/2",
+    href: "/routeHandler/comments/2",
     name: "comments/ ( GET / PATCH / DELETE With Id )",
   },
   {
-    href: "/comments/?query=first",
+    href: "/routeHandler/comments/?query=first",
     name: "comments/ Search Filter",
   },
   {
-    href: "/profile/api",
+    href: "/routeHandler/profile/api",
     name: "profile/ Headers / Cookies",
   },
   {
-    href: "/api/users/v1",
+    href: "/routeHandler/api/users/v1",
     name: "api/ Redirect",
   },
   {
-    href: "/categories",
+    href: "/routeHandler/categories",
     name: "categories/ Cashing",
   },
 ];
