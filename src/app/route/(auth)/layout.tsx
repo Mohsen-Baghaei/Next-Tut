@@ -42,7 +42,7 @@ export default function AuthLayout({
       </div>
       <div className="w-full flex justify-center items-center">{children}</div>
       <footer className="flex w-full justify-center items-center p-5 rounded-lg text-5xl bg-red-500">
-        Auth Header
+        Auth Footer
       </footer>
     </div>
   );

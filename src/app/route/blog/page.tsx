@@ -10,8 +10,8 @@ export default async function BlogPage() {
   return (
     <div>
       <h2>Blog Page</h2>
-      <h2>For loading check loading.tsx in root level</h2>
-      <p>you can create specific loading for eatch route</p>
+      <h2>For loading check loading.tsx in Root level</h2>
+      <p>you can create specific loading for each route</p>
       <div className="flex justify-start items-start gap-4">
         <Link
           href="/route/blog/first"
