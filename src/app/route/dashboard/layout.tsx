@@ -11,7 +11,7 @@ export default function DashboardLayout({
   notification: React.ReactNode;
   login: React.ReactNode;
 }) {
-  const isLoggedin = false;
+  const isLoggedin = true;
   return (
     <div className="flex flex-col w-full h-screen justify-start items-start">
       <div className="w-full text-center">{children}</div>
