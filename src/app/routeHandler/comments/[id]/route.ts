@@ -18,7 +18,7 @@ export async function PATCH(
   const { text } = body;
 
   const index = comments.findIndex((comment) => comment.id === parseInt(id));
-  comments[index] = text;
+  comments[index].text = text;
   return Response.json(comments[index]);
 }
 

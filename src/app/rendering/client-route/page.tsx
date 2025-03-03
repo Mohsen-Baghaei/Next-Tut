@@ -24,19 +24,19 @@ export default function ClientRoutePage() {
       <h2>Client Route {/* {result} */}</h2>
       {imageContent}
       <h2>
-        *** if we uncomment the codes in client-route we get error and page do
+        *** if we uncomment the codes in client-route will get error and page do
         not render ***
       </h2>
       <h2>*** check server-route for rendered code ***</h2>
-      <h2>*** ceeck src/components/utils/server-utils.ts for code ***</h2>
+      <h2>*** check src/components/utils/server-utils.ts for code ***</h2>
       <h2>in summary:</h2>
       <h2>
         1- if we have code in server that we dont want to show in client
         component we user server-only package{" "}
       </h2>
       <h2>
-        2- and if somehow data want to show in client component, the component
-        will not rendered
+        2- if somehow data want to show in client component, the component will
+        not rendered
       </h2>
       <h2>*** / / / / / / / / / / / / / / / / / / / / ***</h2>
       <p>{result2}</p>
