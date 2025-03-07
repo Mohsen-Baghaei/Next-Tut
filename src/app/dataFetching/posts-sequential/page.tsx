@@ -16,7 +16,7 @@ export default async function PostsSequential() {
 
   return (
     <div className="p-4 max-w-7xl mx-auto">
-      <h1 className="text-3xl font-extrabold mb-8">Blog Possts</h1>
+      <h1 className="text-3xl font-extrabold mb-8">Blog Posts</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {filteredPosts.map((post) => (
           <div key={post.id} className="bg-slate-300 shadow-md rounded-lg p-6">

@@ -1,3 +1,4 @@
+import { Search } from "@/components/search";
 import { DataFetching, DataFetchingType } from "@/data/dataFetching";
 import Link from "next/link";
 
@@ -15,6 +16,7 @@ export default function Home() {
   return (
     <div className="flex justify-start items-start gap-5 text-3xl flex-wrap">
       {content}
+      <Search />
     </div>
   );
 }
