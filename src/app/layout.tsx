@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
+import { ClerkProvider } from "@clerk/nextjs";
 export const metadata: Metadata = {
   title: {
     default: "Next.js TUT",
@@ -15,12 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <ThemeProvider>
+    <ClerkProvider>
+      <html lang="en">
         <body className="flex justify-start items-start p-5 w-full min-h-screen rounded-xl border-2 border-solid border-gray-400 overflow-x-hidden">
           {children}
         </body>
-      </ThemeProvider>
-    </html>
+      </html>
+    </ClerkProvider>
   );
 }
