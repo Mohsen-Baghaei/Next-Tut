@@ -5,7 +5,7 @@ export type authenticationType = {
 
 export const authentication: authenticationType[] = [
   {
-    name: "",
-    href: "",
+    name: "Sign in and Sign out",
+    href: "/",
   },
 ];

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
+import { Navigation } from "@/components/navigation";
 export const metadata: Metadata = {
   title: {
     default: "Next.js TUT",
@@ -18,6 +19,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className="flex justify-start items-start p-5 w-full min-h-screen rounded-xl border-2 border-solid border-gray-400 overflow-x-hidden">
+          <Navigation />
           {children}
         </body>
       </html>
