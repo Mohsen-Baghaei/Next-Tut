@@ -1,4 +1,6 @@
 import {
+  SignedIn,
+  SignedOut,
   SignInButton,
   SignOutButton,
   //UserButton,
@@ -16,10 +18,14 @@ export const Navigation = () => {
             </h1>
           </div>
           <div className="flex items-center gap-4">
-            <SignInButton mode="modal" />
-            <Link href="/authentication/user-profile">Profile</Link>
-            {/* <UserButton /> */}
-            <SignOutButton />
+            <SignedOut>
+              <SignInButton mode="modal" />
+            </SignedOut>
+            <SignedIn>
+              <Link href="/authentication/user-profile">Profile</Link>
+              {/* <UserButton /> */}
+              <SignOutButton />
+            </SignedIn>
           </div>
         </div>
       </div>
